@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunheng App</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 320px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        .btn-pi {
+            background-color: #e5a93c;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.3s;
+        }
+        .btn-pi:hover {
+            background-color: #ca922f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bunheng App</h1>
+        <button class="btn-pi" onclick="loginWithPi()">Login Pi</button>
+    </div>
+
+    <script>
+        function loginWithPi() {
+            alert("ប៊ូតុងនេះដំណើរការហើយ! ជំហានបន្ទាប់យើងនឹងរៀនតភ្ជាប់វាជាមួយ Pi SDK។");
+        }
+    </script>
+
+</body>
+</html>
+
+      
